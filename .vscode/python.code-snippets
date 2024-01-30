@@ -90,5 +90,9 @@
 			"    p[i], p[j] = p[j], p[i]",
 			"    return p[:i+1] + p[:i:-1]"
 		]
+	},
+	"Input Integer List": {
+		"prefix": "mapint",
+		"body": [ "map(int, input().split())" ],
 	}
 }
